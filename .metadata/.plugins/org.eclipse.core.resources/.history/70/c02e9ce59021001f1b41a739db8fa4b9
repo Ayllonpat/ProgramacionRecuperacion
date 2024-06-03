@@ -1,0 +1,11 @@
+package Ejercicio06;
+
+public class Principal {
+	
+	//Realizar lo mismo que en el ejercicio anterior, pero diciendo si el número es par o impar.
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

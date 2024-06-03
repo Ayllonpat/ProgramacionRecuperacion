@@ -1,0 +1,16 @@
+package Ejercicio05;
+
+import java.util.Scanner;
+
+public class Principal {
+	
+	// Indicar si un número leído por teclado es positivo o negativo. El proceso se repetirá hasta que se introduzca un cero
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		
+	}
+
+}
