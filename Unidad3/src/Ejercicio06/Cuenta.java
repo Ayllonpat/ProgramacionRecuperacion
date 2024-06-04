@@ -54,42 +54,40 @@ public class Cuenta {
 				+ ", tipoInteres=" + tipoInteres + "]";
 	}
 	
-	public void verSaldo(Cuenta c) {
-		System.out.println(c.getSaldo());
+	public void verSaldo() {
+		System.out.println(saldo);
 	}
+
 	
-	public double actualizarSaldo(Cuenta c) {
-		return c.getSaldo();
-	}
-	
-	public double retirarDinero(Cuenta c, double dineroOp) {
-		if(dineroOp>c.getSaldo()) {
+	public double retirarDinero(double dineroOp) {
+		if(dineroOp>saldo) {
 			return -1;
-		}else if(dineroOp<0) {
-			return 0;
+		
 		}else {
-			saldo=c.getSaldo()-dineroOp;
-			return c.actualizarSaldo(c);
+			saldo=saldo-dineroOp;
+			return saldo;
 		}
 	}
 	
-	public double ingresarDinero(Cuenta c, double dineroOp) {
+	public double ingresarDinero(double dineroOp) {
 		if(dineroOp<0) {
 			return -1;
 		}else {
-			saldo=c.getSaldo()+dineroOp;
-			return c.actualizarSaldo(c);
+			saldo=saldo+dineroOp;
+			return saldo;
 		}
 	}
 	
-	public double calcularInteres(Cuenta c) {
-		saldo=c.getSaldo()+c.getSaldo()*c.getTipoInteres();
-		return c.actualizarSaldo(c);
+	public double calcularInteres() {
+		double cien=100;
+		saldo=saldo+saldo*(tipoInteres/cien);
+		return saldo;
 	}
 	
-	public double cambiarADolares(Cuenta c, double dolares) {
-		saldo=c.getSaldo()*dolares;
-		return c.actualizarSaldo(c);
+	public double cambiarADolares(double dolares) {
+		double saldoDolares;
+		saldoDolares=saldo*dolares;
+		return saldoDolares;
 	}
 
 }

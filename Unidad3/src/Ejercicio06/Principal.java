@@ -53,16 +53,16 @@ Scanner sc=new Scanner(System.in);
 			
 			switch(opcion){
 				case 1:
-					c.verSaldo(c);
+					c.verSaldo();
 					break;
 				case 2:
-					System.out.println(c.actualizarSaldo(c));
+					System.out.println();
 					break;
 				case 3:
 					System.out.println("Indique el saldo que desea retirar:");
 					aux=sc.nextLine();
 					dineroOp=Double.parseDouble(aux);
-					System.out.println(c.retirarDinero(c, dineroOp));
+					System.out.println(c.retirarDinero( dineroOp));
 					//si devuelve -1 la cantidad a sacar es mayor que el saldo y 0 es que estas intentado retirar una cantidad negativa
 					break;
 				case 4:
@@ -70,17 +70,17 @@ Scanner sc=new Scanner(System.in);
 					aux=sc.nextLine();
 					dineroOp=Double.parseDouble(aux);
 					
-					System.out.println(c.ingresarDinero(c, dineroOp));
+					System.out.println(c.ingresarDinero(dineroOp));
 					//si devuelve -1 la cantidad a ingrsar es una cantidad negativa
 					break;
 				case 5:
-					System.out.println(c.calcularInteres(c));
+					System.out.println(c.calcularInteres());
 					break;
 				case 6:
 					c.toString();
 					break;
 				case 7:
-					c.cambiarADolares(c, dolares);
+					c.cambiarADolares( dolares);
 					break;
 				case 0:
 					System.out.println("Saliendo...");

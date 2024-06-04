@@ -2,8 +2,8 @@ package Ejercicio04;
 
 public class Fraccion {
 	
-	int num;
-	int dem;
+	private int num;
+	private int dem;
 	
 	public Fraccion(int num, int dem) {
 		super();
