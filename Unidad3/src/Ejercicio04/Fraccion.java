@@ -38,22 +38,22 @@ public class Fraccion {
 	
 	public Fraccion sumarFracciones(Fraccion a, Fraccion b) {
 		Fraccion c=new Fraccion(num, dem);
-		num=a.getNum()*b.getDem()+a.getDem()*b.getNum();
-		dem=a.getDem()*b.getDem();	
+		num=a.num*b.dem+a.dem*b.num;
+		dem=a.dem*b.dem;	
 		return c;
 	}
 	
 	public Fraccion restarFracciones(Fraccion a, Fraccion b) {
 		Fraccion c=new Fraccion(num, dem);
-		num=a.getNum()*b.getDem()-b.getNum()*a.getDem();
-	    dem=a.getDem()*b.getDem();
+		num=a.num*b.dem-b.num*a.dem;
+	    dem=a.dem*b.dem;
 		return c;
 	}
 	
 	public Fraccion multiplicarFracciones(Fraccion a, Fraccion b) {
 		Fraccion c=new Fraccion(num, dem);
-		num=a.getNum()*b.getNum();
-	    dem=a.getDem()*b.getDem();
+		num=a.num*b.num;
+	    dem=a.dem*b.dem;
 		return c;
 	}
 	

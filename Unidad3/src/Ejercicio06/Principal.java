@@ -28,6 +28,7 @@ Scanner sc=new Scanner(System.in);
 		double dolares=1.36;
 		
 		Cuenta c=new Cuenta("Iván", "62525678Z", 1, 1345.45, 0.8);
+		Oficina o=new Oficina(c);
 		
 		System.out.printf("""
 				\tBIENVENIDO AL PROGRAMA
@@ -62,7 +63,7 @@ Scanner sc=new Scanner(System.in);
 					System.out.println("Indique el saldo que desea retirar:");
 					aux=sc.nextLine();
 					dineroOp=Double.parseDouble(aux);
-					System.out.println(c.retirarDinero( dineroOp));
+					System.out.println(o.retirarDinero(c, dineroOp));
 					//si devuelve -1 la cantidad a sacar es mayor que el saldo y 0 es que estas intentado retirar una cantidad negativa
 					break;
 				case 4:
@@ -70,17 +71,19 @@ Scanner sc=new Scanner(System.in);
 					aux=sc.nextLine();
 					dineroOp=Double.parseDouble(aux);
 					
-					System.out.println(c.ingresarDinero(dineroOp));
+					System.out.println(o.ingresarDinero(c, dineroOp));
 					//si devuelve -1 la cantidad a ingrsar es una cantidad negativa
 					break;
 				case 5:
-					System.out.println(c.calcularInteres());
+					System.out.println(o.calcularInteres(c));
 					break;
 				case 6:
-					c.toString();
+					System.out.println(c.toString());
+					
 					break;
 				case 7:
-					c.cambiarADolares( dolares);
+					System.out.println(o.cambiarADolares(c, dolares));
+					
 					break;
 				case 0:
 					System.out.println("Saliendo...");

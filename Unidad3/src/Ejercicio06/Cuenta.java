@@ -59,35 +59,6 @@ public class Cuenta {
 	}
 
 	
-	public double retirarDinero(double dineroOp) {
-		if(dineroOp>saldo) {
-			return -1;
-		
-		}else {
-			saldo=saldo-dineroOp;
-			return saldo;
-		}
-	}
 	
-	public double ingresarDinero(double dineroOp) {
-		if(dineroOp<0) {
-			return -1;
-		}else {
-			saldo=saldo+dineroOp;
-			return saldo;
-		}
-	}
-	
-	public double calcularInteres() {
-		double cien=100;
-		saldo=saldo+saldo*(tipoInteres/cien);
-		return saldo;
-	}
-	
-	public double cambiarADolares(double dolares) {
-		double saldoDolares;
-		saldoDolares=saldo*dolares;
-		return saldoDolares;
-	}
 
 }

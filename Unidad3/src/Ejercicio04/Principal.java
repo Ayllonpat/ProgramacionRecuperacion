@@ -19,10 +19,8 @@ public class Principal {
 		
 		String aux;
 		int opcion;
-		int num1;
-		int dem1;
-		int num2;
-		int dem2;
+		int num;
+		int dem;
 		
 		Fraccion f=new Fraccion();
 		
@@ -35,21 +33,21 @@ public class Principal {
 			
 			System.out.println("Escriba el numerador de la primera fracción:");
 				aux=sc.nextLine();
-				num1=Integer.parseInt(aux);
+				num=Integer.parseInt(aux);
 			System.out.println("Escriba el denominador de la primera fracción:");
 				aux=sc.nextLine();
-				dem1=Integer.parseInt(aux);
+				dem=Integer.parseInt(aux);
 			
-			Fraccion a=new Fraccion(num1, dem1);
+			Fraccion a=new Fraccion(num, dem);
 				
 			System.out.println("Escriba el numerador de la segunda fracción:");
 				aux=sc.nextLine();
-				num2=Integer.parseInt(aux);
+				num=Integer.parseInt(aux);
 			System.out.println("Escriba el denominador de la segunda fracción:");
 				aux=sc.nextLine();
-				dem2=Integer.parseInt(aux);
+				dem=Integer.parseInt(aux);
 			
-			Fraccion b=new Fraccion(num2, dem2);
+			Fraccion b=new Fraccion(num, dem);
 			
 			System.out.println("""			
 					 \nElija la operación a realizar:
