@@ -26,7 +26,7 @@ public class Furgonetas extends Vehiculo{
 	 * No tiene el mismo número, orden y tipo de parámetros que el método de la interface o la madre
 	 * por lo que no estás usando reescritura de métodos, sino sobrecarga. La firma tiene que ser igual.
 	 * */
-	public double calcularPrecio(String matricula, Vehiculo vehiculo, double precioMin, double limiteFurgo, double limiteCmCubMotos,
+	public double calcularPrecio(double precioMin, double limiteFurgo, double limiteCmCubMotos,
 			double cantPorMetro, double numDiv) {
 		double total;
 		if(longitud>limiteFurgo){

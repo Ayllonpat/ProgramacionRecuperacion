@@ -7,11 +7,16 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Vendedor"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Movil"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Profesor"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Gestion"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="ejercicio05.AyudanteCocina"/>
+    <fullyQualifiedTypeName name="ejercicio05.Chef"/>
+    <fullyQualifiedTypeName name="ejercicio05.Camarero"/>
+    <fullyQualifiedTypeName name="ejercicio05.Restaurante"/>
+    <fullyQualifiedTypeName name="ejercicio05.Trabajador"/>
 </qualifiedTypeNameHistroy>

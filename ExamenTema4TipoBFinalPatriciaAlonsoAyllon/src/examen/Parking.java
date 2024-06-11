@@ -49,7 +49,7 @@ public class Parking {
 		Vehiculo vehiculo = null;
 		boolean encontrado = false;
 		for(int i=0;i<lista.length && !encontrado ;i++) {			
-			if(lista[i].getMatricula().equals(matricula)) {
+			if(lista[i].getMatricula().equalsIgnoreCase(matricula)) {
 				vehiculo=lista[i];	
 			}
 		}
@@ -63,7 +63,7 @@ public class Parking {
 	 * y lo único quer hacees llamar al reescrito (esto sí está bien)
 	 * En resumen, el nombre de este método no puede ser el del reescrito, debe ser diferente
 	 * */
-	public double calcularPrecio(String matricula, double precioMin, double limiteFurgo, double limiteCmCubMotos,
+	public double calcularPrecioUnVehiculo(String matricula, double precioMin, double limiteFurgo, double limiteCmCubMotos,
 			double cantPorMetro, double numDiv) {
 		double precio;
 		
@@ -83,7 +83,7 @@ public class Parking {
 		for(int i=0;i<lista.length;i++) {
 		
 			if(lista[i] instanceof Motos) {
-				recaudadoMotos=((Motos)lista[i]).calcularPrecio(precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv);
+				recaudadoMotos=recaudadoMotos+((Motos)lista[i]).calcularPrecio(precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv);
 			}
 		}
 		return recaudadoMotos;

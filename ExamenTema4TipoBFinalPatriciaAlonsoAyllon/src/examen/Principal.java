@@ -61,7 +61,7 @@ public class Principal {
 			case 2:
 				System.out.println("Indique la matrícula del vehiculo deseado:");
 				matricula=sc.nextLine();
-				System.out.println(p.calcularPrecio(matricula, precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv));
+				System.out.println(p.calcularPrecioUnVehiculo(matricula, precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv));
 				
 				break;
 			case 3:
@@ -71,7 +71,8 @@ public class Principal {
 				System.out.println("Indique la matrícula del vehiculo deseado:");
 				matricula=sc.nextLine();
 				//Falta el syso para imprimir el precio
-				p.calcularPrecioNavidad(matricula, precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv, sumaNavidad);
+				System.out.println(p.calcularPrecioNavidad(matricula, precioMin, limiteFurgo, limiteCmCubMotos, cantPorMetro, numDiv, sumaNavidad));
+				
 				break;
 			case 0:
 				System.out.println("Saliendo...");
