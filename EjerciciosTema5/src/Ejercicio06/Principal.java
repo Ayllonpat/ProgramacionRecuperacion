@@ -1,5 +1,9 @@
 package Ejercicio06;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class Principal {
 	
 	/*
@@ -23,6 +27,77 @@ public class Principal {
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		
+		int nCamisetaBuscar;
+		int nCamisteNuevo;
+		String nombreNuevo;
+		String posicionNueva;
+		int opcion=0;
+		String aux;
+		
+		List<Jugador> listaJugadores=new ArrayList<Jugador>();
+		
+		listaJugadores.add(new Jugador("Maria", "Delantero", 1));
+		listaJugadores.add(new Jugador("David", "Portero", 2));
+		listaJugadores.add(new Jugador("Ángel", "Lateral", 3));
+		
+		System.out.println("Bienvenido al programa:");
+		
+		do {
+			
+			System.out.println("""
+					Elija una opción:
+						
+						1.Añadir un jugador
+						2.Borrar jugador buscando por nCamiseta
+						3.Imprimir lista jugadores
+						4.Buscar jugador por nombre
+						5.Busacar por posicion
+						6.Modificar posicion del jugador buscando por nCamiseta
+						7.Ordenar lista por posición
+						0.Salir
+						
+					""");
+			
+			aux=sc.nextLine();
+			opcion=Integer.parseInt(aux);
+			
+			switch(opcion){
+			
+			case 1:
+				break;
+				
+			case 2:
+				break;
+				
+			case 3:
+				break;
+				
+			case 4:
+				break;
+				
+			case 5:
+				break;
+				
+			case 6:
+				break;
+				
+			case 7:
+				break;
+			
+			case 0:
+				System.out.println("Saliendo...");
+				break;
+				
+			default:
+				System.out.println("Opción no disponible");
+				break;
+				
+			}
+			
+		}while(opcion!=0);
 
 	}
 

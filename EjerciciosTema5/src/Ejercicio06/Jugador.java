@@ -34,6 +34,8 @@ public class Jugador {
 		return "Jugador [nombre=" + nombre + ", posicion=" + posicion + ", nCamiseta=" + nCamiseta + "]";
 	}
 	
-	
+	public int compareTo(Jugador j) {
+		return j.getPosicion().compareTo(j.posicion);
+	}
 
 }

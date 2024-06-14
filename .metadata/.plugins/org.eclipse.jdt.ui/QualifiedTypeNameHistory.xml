@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Ejercicio06.Cuenta"/>
     <fullyQualifiedTypeName name="Ejercicio06.Oficina"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Vendedor"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Movil"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Profesor"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Gestion"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="ejercicio05.AyudanteCocina"/>
     <fullyQualifiedTypeName name="ejercicio05.Chef"/>
     <fullyQualifiedTypeName name="ejercicio05.Camarero"/>
     <fullyQualifiedTypeName name="ejercicio05.Restaurante"/>
     <fullyQualifiedTypeName name="ejercicio05.Trabajador"/>
     <fullyQualifiedTypeName name="examen.IAterrizaje"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="examen.Avion"/>
     <fullyQualifiedTypeName name="examen.AvionDeMercancias"/>
     <fullyQualifiedTypeName name="examen.Aeropuerto"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="examen.AvionDePasajeros"/>
+    <fullyQualifiedTypeName name="Ejercicio06.Jugador"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
