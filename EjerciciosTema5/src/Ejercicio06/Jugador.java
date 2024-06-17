@@ -1,6 +1,6 @@
 package Ejercicio06;
 
-public class Jugador {
+public class Jugador implements Comparable<Jugador>{
 	
 	private String nombre;
 	private String posicion;
@@ -35,7 +35,7 @@ public class Jugador {
 	}
 	
 	public int compareTo(Jugador j) {
-		return j.getPosicion().compareTo(j.posicion);
+		return j.getPosicion().toLowerCase().compareTo(j.posicion.toLowerCase());
 	}
 
 }

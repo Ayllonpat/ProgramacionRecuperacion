@@ -5,7 +5,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Vendedor"/>
     <fullyQualifiedTypeName name="Ejercicio03Boletin2.Movil"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Profesor"/>
     <fullyQualifiedTypeName name="examenT3AlonsoAyllonPatricia.Gestion"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
@@ -22,9 +21,17 @@
     <fullyQualifiedTypeName name="examen.AvionDePasajeros"/>
     <fullyQualifiedTypeName name="Ejercicio06.Jugador"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Ejercicio06.Equipo"/>
+    <fullyQualifiedTypeName name="Ejercicio06.ComparaPorNumero"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.util.Iterator"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="examen.Trastero"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="examen.OrdenarPorPrecio"/>
+    <fullyQualifiedTypeName name="examen.Oficina"/>
 </qualifiedTypeNameHistroy>

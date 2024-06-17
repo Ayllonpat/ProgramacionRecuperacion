@@ -40,8 +40,10 @@ public class Principal {
 		List<Jugador> listaJugadores=new ArrayList<Jugador>();
 		
 		listaJugadores.add(new Jugador("Maria", "Delantero", 1));
-		listaJugadores.add(new Jugador("David", "Portero", 2));
-		listaJugadores.add(new Jugador("Ángel", "Lateral", 3));
+		listaJugadores.add(new Jugador("David", "Portero", 4));
+		listaJugadores.add(new Jugador("Ángel", "Delantero", 3));
+		
+		Equipo e=new Equipo(listaJugadores);
 		
 		System.out.println("Bienvenido al programa:");
 		
@@ -57,6 +59,7 @@ public class Principal {
 						5.Busacar por posicion
 						6.Modificar posicion del jugador buscando por nCamiseta
 						7.Ordenar lista por posición
+						8.Ordenar pornCamiseta
 						0.Salir
 						
 					""");
@@ -85,6 +88,14 @@ public class Principal {
 				break;
 				
 			case 7:
+				e.ordenarListaPorPosicion();
+				System.out.println(listaJugadores);
+				
+				break;
+				
+			case 8:
+				e.ordenarPorNumero();
+				System.out.println(listaJugadores);
 				break;
 			
 			case 0:

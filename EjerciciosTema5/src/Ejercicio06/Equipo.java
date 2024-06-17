@@ -2,10 +2,11 @@ package Ejercicio06;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
-public class Equipo {
+public class Equipo{
 	
 	List <Jugador>listaJugadores;
 
@@ -66,6 +67,10 @@ public class Equipo {
 	
 	public void ordenarListaPorPosicion() {
 		Collections.sort(listaJugadores);
+	}
+	
+	public void ordenarPorNumero() {
+		Collections.sort(listaJugadores, new ComparaPorNumero());
 	}
 
 }
